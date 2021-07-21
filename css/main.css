@@ -557,7 +557,11 @@ li.accordion-item {
     top: 47%; }
   .response__item-img {
     width: 111px;
-    height: 97px; } }
+    height: 97px; }
+  .response__item--right {
+    width: 100%; }
+  .response__item--left {
+    width: 100%; } }
 
 @media (min-width: 1850px) {
   .response-big__item-img {
