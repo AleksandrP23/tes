@@ -496,7 +496,7 @@ li.accordion-item {
     padding-top: 90px; }
   .response__wrapper {
     position: relative;
-    width: 820px;
+    max-width: 820px;
     margin-left: auto; }
   .response-big__item {
     background: none;
@@ -561,6 +561,6 @@ li.accordion-item {
 
 @media (min-width: 1850px) {
   .response-big__item-img {
-    left: 120px; } }
+    left: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
