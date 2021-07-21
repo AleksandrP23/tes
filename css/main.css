@@ -235,7 +235,7 @@
       display: block;
       width: 350px;
       height: 350px;
-      background-image: url(./img/bg-left.png);
+      background-image: url(../img/bg-left.png);
       background-size: cover; }
     .info::before {
       content: "";
@@ -245,7 +245,7 @@
       display: block;
       width: 495px;
       height: 520px;
-      background-image: url(./img/bg-right.png);
+      background-image: url(../img/bg-right.png);
       background-size: cover;
       background-repeat: no-repeat; }
   .info-slider {
