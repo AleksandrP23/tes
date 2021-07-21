@@ -481,7 +481,9 @@ li.accordion-item {
     width: 97px;
     height: 97px; }
   .clear--size {
-    clear: none; } }
+    clear: none; }
+  .response-big__item-text {
+    text-shadow: none; } }
 
 @media (min-width: 1240px) {
   .response {
@@ -491,7 +493,8 @@ li.accordion-item {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 56%;
+    height: 965px;
     background-color: #F5F5F5;
     padding-top: 90px; }
   .response__wrapper {
@@ -561,7 +564,16 @@ li.accordion-item {
   .response__item--right {
     width: 100%; }
   .response__item--left {
-    width: 100%; } }
+    width: 100%;
+    padding-right: 50px; }
+  .response__item--right {
+    padding-right: 50px; } }
+
+@media (min-width: 1500px) {
+  .response__item--right,
+  .response__item--left {
+    width: 50%;
+    padding-right: 0; } }
 
 @media (min-width: 1850px) {
   .response-big__item-img {
