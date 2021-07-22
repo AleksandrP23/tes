@@ -235,7 +235,7 @@
       display: block;
       width: 350px;
       height: 350px;
-      background-image: url(./img/bg-left.png);
+      background-image: url(../img/bg-left.png);
       background-size: cover; }
     .info::before {
       content: "";
@@ -245,7 +245,7 @@
       display: block;
       width: 495px;
       height: 520px;
-      background-image: url(./img/bg-right.png);
+      background-image: url(../img/bg-right.png);
       background-size: cover;
       background-repeat: no-repeat; }
   .info-slider {
@@ -416,7 +416,7 @@ li.accordion-item {
     width: 19px;
     height: 10px;
     vertical-align: middle;
-    background-image: url(./img/arr-b.svg);
+    background-image: url(../img/arr-b.svg);
     transition: transform .2s ease-out;
     position: absolute;
     right: 0;
@@ -493,7 +493,7 @@ li.accordion-item {
     position: absolute;
     top: 0;
     left: 0;
-    width: 56%;
+    width: 54%;
     height: 965px;
     background-color: #F5F5F5;
     padding-top: 90px; }
@@ -542,20 +542,20 @@ li.accordion-item {
       content: "";
       position: absolute;
       display: block;
-      left: -90px;
+      left: -50px;
       top: 8px;
       width: 40px;
       height: 40px; }
   li.accordion-item:nth-child(1):before {
-    background-image: url(./img/sprite.svg#stability); }
+    background-image: url(../img/sprite.svg#stability); }
   li.accordion-item:nth-child(2):before {
-    background-image: url(./img/sprite.svg#led); }
+    background-image: url(../img/sprite.svg#led); }
   li.accordion-item:nth-child(3):before {
-    background-image: url(./img/sprite.svg#lights); }
+    background-image: url(../img/sprite.svg#lights); }
   li.accordion-item:nth-child(4):before {
-    background-image: url(./img/sprite.svg#splitter); }
+    background-image: url(../img/sprite.svg#splitter); }
   li.accordion-item:nth-child(5):before {
-    background-image: url(./img/sprite.svg#power); }
+    background-image: url(../img/sprite.svg#power); }
   .accordion-thumb::before {
     top: 47%; }
   .response__item-img {
