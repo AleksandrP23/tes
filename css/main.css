@@ -496,7 +496,6 @@ li.accordion-item {
   .response__right {
     width: 50%;
     float: right;
-    margin-bottom: 100px;
     padding-left: 140px; }
     .response__right::before {
       content: "";
