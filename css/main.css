@@ -482,53 +482,65 @@ li.accordion-item {
     height: 97px; }
   .clear--size {
     clear: none; }
-  .response-big__item-text {
+  .response-big__item-text,
+  .response-big__item-author {
     text-shadow: none; } }
 
 @media (min-width: 1240px) {
   .response {
     position: relative;
-    padding-top: 84px; }
-  .overaly {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 54%;
-    height: 965px;
-    background-color: #F5F5F5;
     padding-top: 90px; }
-  .response__wrapper {
-    position: relative;
-    max-width: 820px;
-    margin-left: auto; }
   .response-big__item {
     background: none;
     margin-bottom: 130px; }
   .response__right {
-    width: 40%;
+    width: 50%;
     float: right;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    padding-left: 140px; }
+    .response__right::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      background-color: #F8FBFF;
+      z-index: -10; }
+    .response__right .response__title {
+      width: 425px;
+      margin-left: auto;
+      margin-right: auto; }
   .response__left {
     float: left;
-    width: 55%;
+    width: 50%;
     margin-top: 0; }
+    .response__left::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background-color: #F5F5F5;
+      z-index: -10; }
   .response__title {
     font-size: 40px;
-    line-height: 47px;
-    padding: 0 50px; }
+    line-height: 47px; }
   .response-big__item-img {
     width: 210px;
     left: 0px;
     top: 11px; }
   .response-big__item-desc {
-    width: 63%;
     padding-left: 55px;
     padding-right: 15px;
-    padding-top: 12px; }
+    padding-top: 20px; }
   .response-big__item-ql {
-    left: 0; }
+    left: 0;
+    top: 20px; }
   .response-big__item-qr {
-    bottom: -12px; }
+    bottom: -4px;
+    right: 3px; }
   .accordion-thumb {
     font-size: 24px;
     line-height: 28px;
@@ -569,14 +581,14 @@ li.accordion-item {
   .response__item--right {
     padding-right: 50px; } }
 
-@media (min-width: 1500px) {
+@media (min-width: 1790px) {
   .response__item--right,
   .response__item--left {
     width: 50%;
-    padding-right: 0; } }
+    padding-right: 40px; } }
 
 @media (min-width: 1850px) {
   .response-big__item-img {
-    left: 20px; } }
+    left: 40px; } }
 
 /*# sourceMappingURL=main.css.map */
